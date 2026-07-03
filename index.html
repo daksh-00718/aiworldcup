@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI WC 2026 | Official Tournament Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#0B0F19] text-white font-sans overflow-x-hidden">
+
+    <!-- Global Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-[#101828]/80 backdrop-blur-md border-b border-gray-800/80 h-20 flex items-center px-6">
+        <div class="max-w-7xl w-full mx-auto flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-gradient-to-tr from-[#D4AF37] to-[#00BFFF] rounded-lg flex items-center justify-center font-black text-black">AI</div>
+                <span class="font-black text-xl uppercase tracking-wider">AI WC <span class="text-[#D4AF37]">2026</span></span>
+            </a>
+            <div class="hidden md:flex space-x-6 text-xs font-bold tracking-widest uppercase text-gray-400">
+                <a href="index.html" class="text-[#00BFFF]">Home</a>
+                <a href="schedule.html" class="hover:text-white transition">Schedule</a>
+                <a href="standings.html" class="hover:text-white transition">Standings</a>
+                <a href="teams.html" class="hover:text-white transition">Teams</a>
+                <a href="rulebook.html" class="hover:text-white transition">Rulebook</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Broadcast Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20 px-6 text-center overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,191,255,0.07)_0%,transparent_70%)]"></div>
+        <div class="relative z-10 max-w-4xl space-y-6">
+            <div class="inline-flex items-center space-x-2 bg-black border border-gray-800 px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest text-[#D4AF37]">
+                <i class="fa-solid fa-bolt animate-pulse"></i> <span>Season 1 Live Broadcast</span>
+            </div>
+            <h1 class="text-4xl md:text-7xl font-black uppercase tracking-tighter leading-none">
+                Artificial Intelligence <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00BFFF] via-cyan-400 to-[#D4AF37]">World Cup 2026</span>
+            </h1>
+            <p class="text-gray-400 text-sm tracking-widest uppercase font-semibold italic">"No rankings. No reputation. Only results."</p>
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <a href="schedule.html" class="btn-primary">View Schedule</a>
+                <a href="standings.html" class="btn-secondary">Live Standings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Ticker / Countdown Block Section -->
+    <main class="max-w-7xl mx-auto px-6 pb-24 space-y-12 relative z-10 -mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Match M01 - Completed -->
+            <div class="glass-card p-6 border-l-4 border-green-500">
+                <div class="flex justify-between items-center mb-4 text-[10px] font-black tracking-widest text-gray-500 uppercase">
+                    <span>Match M01 • 1 July 2026 (Completed)</span>
+                    <span class="bg-green-500/10 text-green-400 px-2 py-0.5 rounded-md flex items-center gap-1.5">Official</span>
+                </div>
+                <div class="flex items-center justify-around py-4">
+                    <div class="text-center">
+                        <div class="w-12 h-12 rounded-full bg-orange-600/20 text-orange-400 flex items-center justify-center font-bold text-lg mx-auto mb-2 border border-orange-500/30">CL</div>
+                        <h4 class="font-extrabold text-sm tracking-wider uppercase">Claude</h4>
+                    </div>
+                    <div class="text-center bg-gray-900 px-4 py-2 rounded-xl border border-gray-800">
+                        <span class="text-green-400 font-black text-2xl">WIN</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-800 text-gray-400 flex items-center justify-center font-bold text-lg mx-auto mb-2 border border-gray-700">GK</div>
+                        <h4 class="font-extrabold text-sm tracking-wider uppercase text-gray-500">Grok</h4>
+                    </div>
+                </div>
+                <div class="mt-4 text-center">
+                    <a href="match-centre.html" class="text-xs font-bold text-[#00BFFF] hover:underline">VIEW MATCH CENTRE <i class="fa-solid fa-angle-right text-[9px]"></i></a>
+                </div>
+            </div>
+
+            <!-- Match M02 - Upcoming Countdown -->
+            <div class="glass-card p-6 border-l-4 border-amber-500">
+                <div class="flex justify-between items-center mb-4 text-[10px] font-black tracking-widest text-gray-500 uppercase">
+                    <span>Upcoming • Match M02</span>
+                    <span class="bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded-md flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping"></span>5 July 2026</span>
+                </div>
+                <div class="flex flex-col justify-between h-24">
+                    <span class="font-black tracking-wide text-md uppercase text-gray-200">DeepSeek vs Meta AI</span>
+                    <div class="flex gap-2 items-center" id="countdown-timer">
+                        <div class="bg-black/50 p-2 rounded border border-gray-800 min-w-[50px] text-center text-[10px] text-gray-500"><span class="block font-black text-base text-[#00BFFF]" id="days">01</span>DAYS</div>
+                        <div class="bg-black/50 p-2 rounded border border-gray-800 min-w-[50px] text-center text-[10px] text-gray-500"><span class="block font-black text-base text-[#00BFFF]" id="hours">05</span>HRS</div>
+                        <div class="bg-black/50 p-2 rounded border border-gray-800 min-w-[50px] text-center text-[10px] text-gray-500"><span class="block font-black text-base text-[#00BFFF]" id="minutes">30</span>MIN</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="border-t border-gray-900 bg-black/40 py-10 px-6 text-center md:text-left">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <span class="text-[10px] font-black text-gray-500 uppercase tracking-widest block mb-1">Founder & Commissioner</span>
+                <span class="font-extrabold text-md text-[#D4AF37]">Daksh</span>
+            </div>
+            <p class="max-w-xl text-justify text-[9px] text-gray-600 leading-relaxed">
+                AI WC is an independent fan-created project created for entertainment, education, and comparative evaluation of AI systems. It is not affiliated with or endorsed by OpenAI, Anthropic, Google, xAI, Microsoft, Meta, Alibaba, Mistral AI, Perplexity AI, or any other AI company.
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

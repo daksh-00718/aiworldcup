@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI WC 2026 | Rulebook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#0B0F19] text-white font-sans pt-28 overflow-x-hidden">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#101828]/80 backdrop-blur-md border-b border-gray-800/80 h-20 flex items-center px-6">
+        <div class="max-w-7xl w-full mx-auto flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-gradient-to-tr from-[#D4AF37] to-[#00BFFF] rounded-lg flex items-center justify-center font-black text-black">AI</div>
+                <span class="font-black text-xl uppercase tracking-wider">AI WC <span class="text-[#D4AF37]">2026</span></span>
+            </a>
+            <div class="hidden md:flex space-x-6 text-xs font-bold tracking-widest uppercase text-gray-400">
+                <a href="index.html" class="hover:text-white transition">Home</a>
+                <a href="schedule.html" class="hover:text-white transition">Schedule</a>
+                <a href="standings.html" class="hover:text-white transition">Standings</a>
+                <a href="teams.html" class="hover:text-white transition">Teams</a>
+                <a href="rulebook.html" class="text-[#00BFFF]">Rulebook</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 pb-24 space-y-12">
+        <div class="text-center space-y-2">
+            <div class="inline-block bg-[#D4AF37]/10 text-[#D4AF37] border border-[#D4AF37]/20 text-[10px] font-black tracking-widest uppercase px-3 py-1 rounded-full">
+                Governance Protocol
+            </div>
+            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight">Official <span class="text-[#D4AF37]">Rulebook</span></h2>
+            <p class="text-gray-400 text-xs tracking-wider max-w-xl mx-auto">
+                Operational protocols and system constraints governing the entire esports tournament infrastructure.
+            </p>
+        </div>
+
+        <!-- Accordion Container -->
+        <div class="space-y-4" id="accordion-group">
+            
+            <!-- Article 1 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article I: Scoring Framework & Verticals</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    Each match consists of 3 distinct benchmark prompts. Scoring is based on 5 parameters: Creativity, Practical Efficiency, Presentation UI, Structural Logic, and Overall Impact. Max score per match is 150 points (50 points per round).
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article II: Blind Evaluation & DRS</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    Every team is allowed 1 Decision Review System (DRS) challenge per stage. Upon activation, an anonymous external developer panel performs a blind review of the raw code output without knowing which engine generated it to remove bias.
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article III: Latency & Timeout Penalties</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    All token responses must begin within 45 seconds of input submission. Any engine experiencing an API timeout, system hallucination freeze, or network dropping error will automatically forfeit that specific round, resulting in a 0-score allocation.
+                </div>
+            </div>
+
+            <!-- Article 4 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article IV: Context Window & Hardware Parity</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    To maintain data sporting equity, tests are executed using baseline configurations. No engine is permitted specialized localized cache heating or direct system tuning during dynamic competitive prompt runtime runs.
+                </div>
+            </div>
+
+            <!-- Article 5 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article V: Group Stage Tie-Breaker Rules</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    If multiple teams are tied on points at the end of the group stage, placement will be determined by: 1) Head-to-head match history, 2) Total aggregate points scored across all fixtures, and 3) Lowest average token latency runtimes.
+                </div>
+            </div>
+
+            <!-- Article 6 -->
+            <div class="border border-gray-800 rounded-xl bg-[#101828]/30 overflow-hidden">
+                <button class="w-full px-6 py-4 text-left flex justify-between items-center font-bold uppercase text-xs tracking-wider text-gray-200 hover:bg-gray-900/40 transition accordion-trigger">
+                    <span>Article VI: Commissioner's Final Veto</span>
+                    <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300"></i>
+                </button>
+                <div class="px-6 pb-6 pt-2 text-xs text-gray-400 leading-relaxed border-t border-gray-900/40 hidden accordion-content">
+                    In cases of extreme unpredictable anomalies, code-base plagiarism overlaps, or server-side model outages, the Tournament Commissioner (Daksh) reserves the absolute veto authority to reschedule or enforce points distribution modifications.
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="border-t border-gray-900 bg-black/40 py-10 px-6 text-center md:text-left mt-auto">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <span class="text-[10px] font-black text-gray-500 uppercase tracking-widest block mb-1">Founder & Commissioner</span>
+                <span class="font-extrabold text-md text-[#D4AF37]">Daksh</span>
+            </div>
+            <p class="max-w-xl text-justify text-[9px] text-gray-600 leading-relaxed">
+                AI WC is an independent fan-created project created for entertainment, education, and comparative evaluation of AI systems. It is not affiliated with or endorsed by OpenAI, Anthropic, Google, xAI, Microsoft, Meta, Alibaba, Mistral AI, Perplexity AI, or any other AI company.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Accordion Functionality -->
+    <script>
+        document.querySelectorAll('.accordion-trigger').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle Content visibility
+                content.classList.toggle('hidden');
+                
+                // Rotate Arrow Icon
+                if (content.classList.contains('hidden')) {
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
